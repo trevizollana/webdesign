@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, monospace;
+}
+
+nav {
+    background-color:#F3C0D1;
+}
+
+.container {
+    width: 1140px; 
+    max-width: 100%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+nav {
+    width: 100%;
+    float: left;
+}
+
+nav h1 img {
+    width: 100px;
+}
+
+h1 {
+    float: left;
+}
+
+ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+    padding: 35px 15px;
+
+}
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul li a {
+    background-color: #E60072;/* COR DE FUNDO PARA OS LINKS */
+    color: white;/* COR DA FONTE PARA OS LINKS */
+    padding: 6px 26px;
+    font-family: arial,sans-serif;
+    color: white;
+    border-style: outset;
+    border-color: #FF1D9A;
+    font-weight: bold;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border: 4px solid #B50058;
+    font-family: arial,sans-serif;
+    background: #E62388;
+    color: white;
+    border-style: outset;
+    border-color: #FF5BAA;
+    font-weight: bold;
+    text-shadow: none;
+    text-decoration: none;
+}
+ul li a:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+header { 
+    background-color:#E00786;
+}
+header img {
+    width: 100%;
+    border:4px solid rgb(0,0,0);
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+main img{
+    width: 100%;
+    max-height: 100%;
+}
+main{
+    background-color:#f7d3df;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+
+}
+
+.center{
+    text-align: center;
+}
+
+/*Estilos para o Formulário */
+
+input[type="text"],
+input[type="email"],
+textarea, select {
+    width: 100%;
+    padding: 4px;
+    border: 2px, solid #0000;
+    border-radius: 4px;
+    margin: 4px 0;
+    resize: none;
+    outline: none;
+    background-color: white;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+textarea:focus {
+    background-color: #E00786;
+}
+
+.valor {
+    font-size: 50px;
+}
+.desc {
+    font-size: 10px;
+}
+
+.comprar {
+    font-family: arial,sans-serif;
+    background: #E60072;
+    color: white;
+    border-style: outset;
+    border-color: #FF1D9A;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: none;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+.comprar:hover {
+    font-family: arial,sans-serif;
+    background: #E62388;
+    color: white;
+    border-style: outset;
+    border-color: #FF5BAA;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: none;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+
+.comprar:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.comp {
+    background-color: #E60072;/* COR DE FUNDO PARA OS LINKS */
+    color: white;/* COR DA FONTE PARA OS LINKS */
+    padding: 6px 26px;
+    font-family: arial,sans-serif;
+    border-style: outset;
+    border-color: #FF1D9A;
+    font-weight: bold;
+    text-shadow: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.produtos h4 {
+    margin-bottom: 20px;
+}
+
+.comp:hover{
+    border: 4px solid #B50058;
+    font-family: arial,sans-serif;
+    background: #E62388;
+    color: white;
+    border-style: outset;
+    border-color: #FF5BAA;
+    font-weight: bold;
+    text-shadow: none;
+    text-decoration: none;
+    
+}
+/* .comp:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+} */
